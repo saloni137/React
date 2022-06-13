@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: antiquewhite;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card {
+  font-family: "Heebo";
+  width: 100%;
+  border: 1px solid rgb(215, 215, 215);
+  position: relative;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 20px;
+  overflow: hidden;
+
+}
+
+.header {
+  height: auto;
+  bottom: 100%;
+  padding: 10px 5px;
+  font-size: 21px;
+}
+
+.body {
+  width: 98%;
+  color: rgb(141, 141, 141);
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0 !important;
+  padding: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.addCard {
+  font-family: "Heebo";
+  width: 100%;
+  border: 1px solid rgb(215, 215, 215);
+  position: relative;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 20px;
+  overflow: hidden;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
+  font-size: 16px;
+
+}
+
+.Bdetail {
+  margin: 10px; 
+  width: 100%; 
+  height: 100%;
+  padding: 10px;
+  font-size: 21px;
+}
+.BdetailBox {
+  margin: 10px; 
+  width: 616px; 
+  height: 100px;
+  padding: 10px;
+  font-size: 21px;
+}
+
+.Btitle {
+  margin: 10px; 
+  width: 250px; 
+  height: 26px;
+  padding: 10px;
+  font-size: 26px;
+  font-style: initial
+}
+
+
+.pagination {
+  margin-top: 25px;
+}
+.pagination span {
+cursor: pointer;
+text-align: center;
+color: black;
+float: left;
+padding: 8px 16px;
+text-decoration: none;
+transition: background-color .3s;
+border: 1px solid #ddd;
+}
+
+.pagination span.active {
+background-color: #0099FF;
+color: white;
+border: 1px solid #0099FF;
+}
+
+.Paginate {
+  text-align: center;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: antiquewhite;
+}
